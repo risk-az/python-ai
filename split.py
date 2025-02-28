@@ -193,7 +193,7 @@ def split_tif_to_png(input_tif, geojson_file, output_folder, tile_size=256, serv
 
 
 # Использование
-input_tif = "1000.tif"
+input_tif = "768.tif"
 geojson_file = "output_pixels.geojson"
 output_folder = "output"
 split_tif_to_png(input_tif, geojson_file, output_folder, 256)
